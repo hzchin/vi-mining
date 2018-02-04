@@ -10,13 +10,13 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
 
   # pass a private network IP
-  config.vm.network "private_network", ip:"172.28.128.5"
+  config.vm.network "private_network", ip:"172.28.128.6"
   #config.vm.network "forwarded_port", guest: 80, host: 8080
   #config.vm.network "forwarded_port", guest: 3306, host: 3307
   #config.vm.network "public_network", type:"dhcp"
   
   # your host name for the application
-  config.vm.hostname = "scrapy.foo.com"
+  config.vm.hostname = "vi-ming"
   
 
   config.vm.provider :virtualbox do |vb|

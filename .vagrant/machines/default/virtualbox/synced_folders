@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/sync":{"guestpath":"/var/www/sync","hostpath":"D:/vi-mining/src","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/vi-mining","disabled":false,"__vagrantfile":true}}}
